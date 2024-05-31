@@ -11,7 +11,7 @@ TARGET=server
 all: $(TARGET)
 
 $(TARGET): server.cpp
-	$(CC) $(CFLAGS) server.cpp -o $(TARGET)
+	$(CC) $(CFLAGS) Servidor.cpp -o $(TARGET)
 
 # Comando para limpiar archivos compilados
 clean:
