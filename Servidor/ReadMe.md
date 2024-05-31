@@ -10,9 +10,9 @@ Asegúrate de tener instalado el compilador de C (gcc) en tu sistema.
 
  Ejecuta el siguiente comando para compilar el programa:
 
-    ```bash
+```bash
     make
-    ```
+```
 
 Esto utilizará el Makefile para compilar el código fuente y generará un archivo ejecutable llamado `server`.
 
