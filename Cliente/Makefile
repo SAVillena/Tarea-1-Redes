@@ -10,7 +10,7 @@ CFLAGS=-Wall
 TARGET=cliente
 
 # Archivo fuente
-SOURCE=clientePOO.cpp
+SOURCE=cliente.cpp
 
 all: $(TARGET)
 

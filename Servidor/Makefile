@@ -10,8 +10,8 @@ TARGET=server
 # Dependencias
 all: $(TARGET)
 
-$(TARGET): serverPOO.cpp
-	$(CC) $(CFLAGS) serverPOO.cpp -o $(TARGET)
+$(TARGET): servidor.cpp
+	$(CC) $(CFLAGS) servidor.cpp -o $(TARGET)
 
 # Comando para limpiar archivos compilados
 clean:
